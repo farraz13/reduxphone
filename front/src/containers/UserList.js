@@ -74,6 +74,7 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
     loadMore: () => dispatch(loadMore())
 })
 
+
 export default connect(
     mapStateToProps,
     mapDispatchToProps
