@@ -116,10 +116,6 @@ const loadMoreSuccess = (user) => ({
   user
 })
 
-// const loadmoreFailure = (error) => ({
-//   type: 'LOAD_MORE_FAILURE',
-//   error
-// })
 
 export const loadMore = () => (dispatch, getState) => {
   let state = getState()
